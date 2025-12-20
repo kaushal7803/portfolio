@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
 
           <div className="absolute inset-0 bg-[url('/bg_img.png')] bg-[length:64px_64px]  bg-repeat opacity-8 z-10"></div>
 
-          <div className="relative h-fit  border-card border-2  rounded-4xl lg:rounded-[40px] p-3 lg:p-4">
+          <div className="relative min-h-[100vh]  border-card border-2  rounded-4xl lg:rounded-[40px] p-3 lg:p-4">
             {children}
           </div>
         </div>

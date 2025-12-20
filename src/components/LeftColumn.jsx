@@ -19,6 +19,7 @@ import tech3 from "../assets/images/tech3.webp";
 import tech4 from "../assets/images/tech5.webp";
 import tech5 from "../assets/images/tech6.webp";
 import tech6 from "../assets/images/tech7.webp";
+import Link from "next/link";
 
 const logoShow = [tech1, tech2, tech3, tech4, tech5, tech6];
 
@@ -63,7 +64,9 @@ export default function LeftColumn() {
                             transition={{ duration: 0.25, ease: "easeInOut" }}
                             className="absolute"
                         >
-                            <GoArrowUpRight className="sm:w-6 sm:h-6 w-5 h-5 text-primary" />
+                            <Link href="/about" className="flex items-center justify-center">
+                                <GoArrowUpRight className="sm:w-6 sm:h-6 w-5 h-5 text-primary" />
+                            </Link>
                         </motion.div>
                     </div>
                 </div>
