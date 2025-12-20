@@ -96,8 +96,8 @@ const About = () => {
                 </h3>
 
                 <p className="text-primary text-lg sm:text-xl leading-relaxed tracking-wide">
-                  Today I'm a Design Lead at mano improving the daily process of
-                  ordering groceries.
+                  Today I&apos;m a Design Lead at mano improving the daily
+                  process of ordering groceries.
                 </p>
               </div>
 
